@@ -6,7 +6,7 @@ kada obrišem .dll dogodi mi se error (program ne prepoznaje MyConsole.PrintHell
 i poslat cu samo .exe datoteku i .dll
 
 #Pitanje 2: 
-Ispisalo mi se novo, promjenjni ispis. Sve klase unutar class library projekta bit će dostupne unutar konzolne aplikacije.
+Stari string je prikazan jer izmjene nisu pohranjene u .dll
 
 #Pitanje 3:    
 Pero : Hello World
@@ -18,4 +18,4 @@ Dodana je jos i PeroClassLibrary.dll datoteka
 Pretpostavljam jer je prebcena(kopirana) u Bin/Debug datoteku Konzolne aplikacije
 
 #Pitanje 6: 
-Zbriše se packages.config
+Visual je ponovno skinuo NodaTime direktorij i vratio ga u packages
